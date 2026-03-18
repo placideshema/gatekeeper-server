@@ -1,0 +1,16 @@
+{
+  "name": "gatekeeper-server",
+  "version": "3.0.0",
+  "description": "GateKeeper proxy server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express":            "^4.18.2",
+    "dotenv":             "^16.3.1",
+    "cors":               "^2.8.5",
+    "express-rate-limit": "^7.1.5",
+    "helmet":             "^7.1.0"
+  }
+}
